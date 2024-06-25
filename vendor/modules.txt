@@ -59,7 +59,7 @@ github.com/docker/cli/cli/compose/schema
 github.com/docker/cli/cli/compose/template
 github.com/docker/cli/cli/compose/types
 github.com/docker/cli/opts
-# github.com/docker/docker v20.10.17+incompatible
+# github.com/docker/docker v24.0.9+incompatible
 ## explicit
 github.com/docker/docker/api/types
 github.com/docker/docker/api/types/blkiodev
@@ -72,6 +72,7 @@ github.com/docker/docker/api/types/strslice
 github.com/docker/docker/api/types/swarm
 github.com/docker/docker/api/types/swarm/runtime
 github.com/docker/docker/api/types/versions
+github.com/docker/docker/api/types/volume
 github.com/docker/docker/pkg/namesgenerator
 # github.com/docker/go-connections v0.4.0
 ## explicit
@@ -278,18 +279,12 @@ github.com/influxdata/line-protocol
 # github.com/jackc/pgerrcode v0.0.0-20220416144525-469b46aa5efa
 ## explicit; go 1.12
 github.com/jackc/pgerrcode
-# github.com/jackc/pgio v1.0.0
-## explicit; go 1.12
-github.com/jackc/pgio
 # github.com/jackc/pgpassfile v1.0.0
 ## explicit; go 1.12
 github.com/jackc/pgpassfile
 # github.com/jackc/pgservicefile v0.0.0-20200714003250-2b9c44734f2b
 ## explicit; go 1.14
 github.com/jackc/pgservicefile
-# github.com/jackc/pgtype v1.13.0
-## explicit; go 1.13
-github.com/jackc/pgtype
 # github.com/jackc/pgx/v5 v5.2.0
 ## explicit; go 1.18
 github.com/jackc/pgx/v5
